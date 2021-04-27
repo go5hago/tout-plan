@@ -1,22 +1,9 @@
-button {
-  color: blue;
-  border-radius: 5px;
-  border: none;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-button .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 5px;
-  border: none;
-}
-
-button .link {
-  border-radius: 5px;
-  border: none;
+body {
+  font-family: 'Mulish', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
