@@ -1,5 +1,22 @@
-.icon {
-  fill: red;
-  width: 20px;
-  height: 20px;
+button {
+  color: blue;
+  border-radius: 5px;
+  border: none;
 }
+
+button .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  border: none;
+}
+
+button .link {
+  border-radius: 5px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

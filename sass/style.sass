@@ -1,0 +1,16 @@
+
+@mixin border-radius
+  border-radius: 5px
+  border: none
+
+button
+  color: blue
+  @include border-radius
+
+  .card
+    display: flex
+    align-items: center
+    @include border-radius
+
+  .link
+    @include border-radius
